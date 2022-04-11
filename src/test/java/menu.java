@@ -10,7 +10,7 @@ public class menu{
 
     @Test
     public void testMenu(){
-        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://onliner.by");
         driver.findElement(By.xpath("//*[@id='navigation-sidebar']/div[2]/a")).click();

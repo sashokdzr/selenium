@@ -7,7 +7,7 @@ public class mainPage {
 
     @Test
     public void testTitle(){
-        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://onliner.by");
         String title = driver.getTitle();
